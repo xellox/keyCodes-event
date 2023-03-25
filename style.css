@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+    font-family: tilt neon;
+    background-color: #1A1D23;
+}
+
+
+.key {
+    display:inline-flex;
+    justify-content: center;
+    position: relative;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    font-size:22px;
+    padding:20px;
+    margin:15px;
+    min-width: 150px;
+    background-color: #B9BECB;
+}
+
+.key small{
+    position:absolute;
+    top:-24px;
+    font-size: 16px;
+    color:White;
+}
